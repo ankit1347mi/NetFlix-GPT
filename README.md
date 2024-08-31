@@ -16,6 +16,10 @@
 - Implemented Sign out
 - Update Profile
 - Fetch from TMDB Movies
+- BugFix: Signup user Display name and profile picture update
+- BugFix: if the user is not logged in Redirect / browse to Lofing page and vise-versa.
+- Unsubscibed to the onAuthStateChanged callback.
+- 
 
 # Features
 
