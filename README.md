@@ -19,7 +19,14 @@
 - BugFix: Signup user Display name and profile picture update
 - BugFix: if the user is not logged in Redirect / browse to Lofing page and vise-versa.
 - Unsubscibed to the onAuthStateChanged callback.
-- 
+- Add hardcoded values to the constants file
+- Register for TMDB API & create app & get access token
+- Get data from TMDB now playing list API
+- Custom Hook for Now Playinh Movies
+- Create movieSlice and Update store with Data
+- Fetch Data for Trailer video
+- Update store with trailer video data
+- Embedded youtube Video and make it autoplay and mute
 
 # Features
 
