@@ -82,10 +82,7 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img
-          src={BG_IMG}
-          alt="backgroundImg"
-        />
+        <img src={BG_IMG} alt="backgroundImg" />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
@@ -117,14 +114,29 @@ const Login = () => {
         />
 
         <button
-          className="p-4 my-4 bg-red-700 w-full rounded-lg"
+          className="p-4 my-4 bg-red-500 w-full rounded-lg"
           onClick={handleButtonClick}
         >
           {isSignInForm ? "Sign In" : "Sign Up"}
         </button>
 
-        <p className="py-4 cursor-pointer underline" onClick={toggleSignInForm}>
-          {isSignInForm ? "New to Netflix? Sign Up Now" : "Already Registered"}
+        <p className="py-4 no-underline" onClick={toggleSignInForm}>
+          {isSignInForm ? (
+            <span>
+              New to Netflix? <b className="cursor-pointer">Sign Up Now</b>
+            </span>
+          ) : (
+            <span>
+              If already registered then
+              <b className="cursor-pointer"> Sign In</b>
+            </span>
+          )}
+        </p>
+
+        <p className="text-sm">
+          {isSignInForm &&
+            `This page is protected by Google reCAPTCHA to ensure you're not a bot.
+          Learn more.`}
         </p>
       </form>
     </div>

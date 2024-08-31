@@ -27,6 +27,10 @@
 - Fetch Data for Trailer video
 - Update store with trailer video data
 - Embedded youtube Video and make it autoplay and mute
+- Build Secondry Component
+- Build Movie list
+- Build Movie Cart
+- Used Custom Hooks
 
 # Features
 
