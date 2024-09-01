@@ -31,6 +31,9 @@
 - Build Movie list
 - Build Movie Cart
 - Used Custom Hooks
+- GPT search Page
+- GPT search Bar
+- (IMP)Multi-Language Feature in App
 
 # Features
 
