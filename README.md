@@ -49,3 +49,7 @@
 - NetFlixGPT
   -Search Bar
   - Movie Suggestions
+
+## Hosted URL
+
+The project is hosted at: https://netflixgpt-a6da4.web.app
